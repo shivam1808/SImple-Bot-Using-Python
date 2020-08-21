@@ -13,12 +13,12 @@ def get_hours():
 def get_date():
 	return str(date.today())
 
-def greeting_msg():
+def greeting_msg(name):
     hour = int(get_hours())
     if (hour >= 4 and hour <12 ):
-        s = "Good Morning, "
+        s = "Good Morning " + name + ","
     elif (hour >= 12 and hour <16 ):
-        s = "Good Afternoon, "
+        s = "Good Afternoon " + name + ","
     else:
-        s = "Good Evening, "
+        s = "Good Evening " + name + ","
     return s
