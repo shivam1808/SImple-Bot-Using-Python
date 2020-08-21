@@ -1,7 +1,7 @@
 from twilio.rest import Client
 
-account_sid = 'AC19b1cb9ea8ab5cefbde1421a98739e10'
-auth_token = 'adbf864033a5ff9b4806a577519ca490'
+account_sid = '*****************************'
+auth_token = '******************************'
 
 
 def sending_text(msg, number):
@@ -10,7 +10,7 @@ def sending_text(msg, number):
     client.messages \
         .create(
             body=msg,
-            from_='+13153295098',
+            from_='************',
             to=number
         )
     return ("Message Sent to " + number)
