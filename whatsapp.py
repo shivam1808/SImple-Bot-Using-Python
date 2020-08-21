@@ -2,7 +2,7 @@ import os
 from colorama import Fore
 from speak_module import speak
 
-phoneBook = {'shivam':'8979746455', 'home':'9917088447'}
+phoneBook = {'shivam':'*********', 'home':'*********'}
 
 def whatsapp():
     speak("Enter name of the contact")
